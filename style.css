@@ -1,0 +1,49 @@
+p {
+    font-family: serif;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    color: #1e272e;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #05c46b;
+}
+
+a:visited {
+    color: #706fd3;
+}
+
+body {
+    max-width: 90%;
+    margin: 0 3rem;
+    background-color: #ecf0f1;  
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+blockquote {
+    width: 50%;
+    margin: 80px auto;
+    background: #d1d8e0;
+    border-left: 3px solid #b22222;
+    padding: 30px;
+}
+
+blockquote figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+blockquote figure img {
+    object-fit: cover;
+    width: 100%;
+}
+
+
+
