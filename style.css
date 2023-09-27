@@ -19,17 +19,12 @@ a:visited {
 
 body {
     max-width: 90%;
-    margin: 0 6rem;
+    margin: 0 4rem;
     background-color: #ecf0f1;  
     background-image: url();
     background-repeat: no-repeat;
     background-position: bottom right;
     line-height: 1.4rem;
-}
-
-body > img {
-    width: 500px;
-    border-radius: 5px;
 }
 
 header {
@@ -122,7 +117,34 @@ q {
     list-style-image: url('images/chat.png');
 }
 
+.people {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+}
 
+.people img {
+    height: 320px;
+    border-radius: 5px;
+}
+
+.love {
+    display: flex;
+    justify-content: center;
+    padding: 0 2rem;
+}
+
+.love img {
+    height: 320px;
+    margin-top: 1.7rem;
+    border-radius: 5px;
+}
+
+article {
+    margin-left: 2.2rem;
+}
 
 
 
