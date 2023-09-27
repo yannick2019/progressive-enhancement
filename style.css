@@ -19,11 +19,25 @@ a:visited {
 
 body {
     max-width: 90%;
-    margin: 0 3rem;
+    margin: 0 6rem;
     background-color: #ecf0f1;  
     background-image: url();
     background-repeat: no-repeat;
     background-position: bottom right;
+    line-height: 1.4rem;
+}
+
+body > img {
+    width: 500px;
+    border-radius: 5px;
+}
+
+header {
+    margin-top: 2.3rem;   
+}
+
+header > h1 {
+    background-color: #f6b93b;
 }
 
 blockquote {
@@ -32,6 +46,12 @@ blockquote {
     background: #d1d8e0;
     border-left: 3px solid #b22222;
     padding: 30px;
+    line-height: 1.6rem;
+}
+
+blockquote > p {
+    font-style: italic;
+    line-height: 2rem;
 }
 
 blockquote figure {
@@ -42,8 +62,71 @@ blockquote figure {
 
 blockquote figure img {
     object-fit: cover;
-    width: 100%;
+    width: 540px;
 }
+
+q {
+    font-size: 160%;
+}
+
+.villagers::before {
+    color: #3498db;
+}
+
+.farmer::before {
+    color: #d35400;
+}
+
+.good {
+    text-transform: capitalize;
+    color: green;
+}
+
+.bad {
+    text-transform: capitalize;
+    color: red;
+}
+
+#table {
+    border-collapse: collapse;
+    width: 300px;
+}
+
+#table th {
+    background-color: #48565a;
+    color: #fff;
+}
+
+#table td, #table th {
+    border: 1px solid black;
+}
+
+#table tr:nth-child(even) {
+    background-color: #fff;  
+}
+
+#table tr:nth-child(odd) {
+    background-color: #dfe6e9;
+}
+
+.good-i {
+    list-style-image: url('images/bien.png');
+    background-size: 5px;
+}
+
+.bad-i {
+    list-style-image: url('images/mal.png');
+}
+
+.cat {
+    list-style-image: url('images/chat.png');
+}
+
+
+
+
+
+
 
 
 

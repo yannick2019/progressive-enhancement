@@ -8,3 +8,4 @@
 ## CSS
 1. CSS selectors
 2. Block model
+3. CSS selectors (part 2)
